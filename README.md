@@ -3,6 +3,8 @@
 Lightweight, dependency-free typewriter ticker in a single JavaScript file.  
 Perfect for blogs, PWAs, WordPress, Blogger, and any web projects.
 
+![Version](https://img.shields.io/badge/version-v1.0.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 ---
 
 ## Features
