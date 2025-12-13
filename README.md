@@ -59,8 +59,18 @@ Add an HTML element with the attribute data-typewriter and configure with data- 
 | data-delete-speed	| Number     | 40	     | Milliseconds per character deleting speed    |
 | data-loop	        | Boolean	   | true	   | Loop through texts continuously              |
 
+---
 
-
+| Attribute        | Type       | Default  | Description                                  |
+|------------------|------------|----------|----------------------------------------------|
+| data-texts       | JSON Array | [ ]      | Array of strings to type                     |
+| data-color       | String     | #0078d7  | Text and cursor color                        |
+| data-font-size   | String     | 18px     | Font size of the text                        |
+| data-cursor      | Boolean    | true     | Show blinking cursor ("true" or "false")     |
+| data-delay       | Number     | 1500     | Delay in milliseconds before deleting starts |
+| data-type-speed  | Number     | 80       | Milliseconds per character typing speed      |
+| data-delete-speed| Number     | 40       | Milliseconds per character deleting speed    |
+| data-loop        | Boolean    | true     | Loop through texts continuously              |
 ---
 
 ## JavaScript API
