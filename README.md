@@ -99,7 +99,7 @@ window.TypewriterTicker = {
 
 ---
 
-License
+## License
 
 MIT License
 © 2025 Khin Maung Win
