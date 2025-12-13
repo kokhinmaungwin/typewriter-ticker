@@ -48,8 +48,8 @@ Add an HTML element with the attribute data-typewriter and configure with data- 
 
 ## Configuration Options
 
-Attribute	Type	Default	Description
-
+| Attribute	| Type | Default |Description |
+|-----------|------|---------|------------|
 data-texts	JSON Array	[]	Array of strings to type
 data-color	String	#0078d7	Text and cursor color
 data-font-size	String	18px	Font size of the text
