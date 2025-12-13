@@ -24,6 +24,10 @@ Perfect for blogs, PWAs, WordPress, Blogger, and any web projects.
 Include the script in your HTML:
 
 ```html
+<script src="https://cdn.jsdelivr.net/gh/kokhinmaungwin/typewriter-ticker@v1.0.0/typewriter-ticker.min.js"></script>
+```
+
+```html
 <script src="https://cdn.jsdelivr.net/gh/kokhinmaungwin/typewriter-ticker@v1.0.0/typewriter-ticker.js"></script>
 ```
 
@@ -96,6 +100,12 @@ window.TypewriterTicker = {
   }
 };
 ```
+
+---
+
+## Live Demo
+
+https://kokhinmaungwin.github.io/typewriter-ticker/
 
 ---
 
