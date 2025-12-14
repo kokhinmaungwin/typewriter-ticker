@@ -21,6 +21,9 @@ Perfect for blogs, PWAs, WordPress, Blogger, and any web projects.
 
 Include the script in your HTML:
 
+> ⚠️ **Do NOT include both files at the same time.  
+> Use only ONE version: minified OR normal.**
+
 ```html
 <script src="https://cdn.jsdelivr.net/gh/kokhinmaungwin/typewriter-ticker@v1.0.0/typewriter-ticker.min.js"></script>
 ```
