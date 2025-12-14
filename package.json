@@ -1,0 +1,34 @@
+{
+  "name": "typewriter-ticker",
+  "version": "1.0.0",
+  "description": "Lightweight, dependency-free typewriter ticker. CDN-ready single-file JavaScript for blogs, PWAs, and CMS.",
+  "main": "typewriter-ticker.js",
+  "unpkg": "typewriter-ticker.min.js",
+  "jsdelivr": "typewriter-ticker.min.js",
+  "files": [
+    "typewriter-ticker.js",
+    "typewriter-ticker.min.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "typewriter",
+    "ticker",
+    "javascript",
+    "cdn",
+    "pwa",
+    "animation",
+    "text-animation",
+    "frontend"
+  ],
+  "author": "Khin Maung Win",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kokhinmaungwin/typewriter-ticker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kokhinmaungwin/typewriter-ticker/issues"
+  },
+  "homepage": "https://kokhinmaungwin.github.io/typewriter-ticker/"
+}
