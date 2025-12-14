@@ -24,9 +24,16 @@ Include the script in your HTML:
 > ⚠️ **Do NOT include both files at the same time.  
 > Use only ONE version: minified OR normal.**
 
+### Recommended (Production)
+
+Use the minified version in production for better performance.
+
 ```html
 <script src="https://cdn.jsdelivr.net/gh/kokhinmaungwin/typewriter-ticker@v1.0.0/typewriter-ticker.min.js"></script>
 ```
+### Development / Debug
+
+Use the normal (non-minified) version during development for easier debugging.
 
 ```html
 <script src="https://cdn.jsdelivr.net/gh/kokhinmaungwin/typewriter-ticker@v1.0.0/typewriter-ticker.js"></script>
@@ -36,7 +43,7 @@ Include the script in your HTML:
 
 ## Basic Usage Example
 
-Add an HTML element with the attribute data-typewriter and configure with data- attributes:
+Add an HTML element with the attribute data-typewriter and configure with data-attributes:
 ```html
 <div
   data-typewriter
@@ -93,7 +100,7 @@ window.TypewriterTicker.resumeAll();
 
 ## Callback
 
-You can define a global callback function onComplete via window.TypewriterTicker:
+(Optional) You can define a global callback function onComplete
 ```js
 window.TypewriterTicker = {
   onComplete(el) {
